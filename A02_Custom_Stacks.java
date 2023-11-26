@@ -30,15 +30,16 @@ public class A02_Custom_Stacks {
         }
 
 
-        public int pop() throws Exception{
-        if(isEmpty()){
-            throw new Exception ("Cannot pop from empty stack!!")
-        }
-        }
+//        public int pop() throws Exception{
+//        if(isEmpty()){
+//            throw new Exception ("Cannot pop from empty stack!!");
+//        }
+//        }
 
 
     private boolean isFull() {
-        return ptr == data.length -1; /khana kha lena  / last index
+        return ptr == data.length -1; //khana kha lena  / last index
+
     }
 
     private boolean isEmpty() {
